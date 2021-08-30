@@ -1,22 +1,16 @@
-package Semana_05;
-public class Exercicio01 {
-    public void EXERCICIO() {
-        double vinte = 1;
-        for(int z = 1; z <= 20; z++) {
-            vinte *= z;
-        }
-        System.out.println(vinte);
+import java.math.BigInteger;
 
-        double trinta = 1;
-        for(int x = 1; x <= 30; x++) {
-            trinta *= x;
+public class Exercicio01 extends BigInteger{
+     public Exercicio1() {
+         super("1");
+     }
+    public void exec() {
+        for(int i = 10; i <= 50; i += 10) {
+            BigInteger fat = new BigInteger("1");
+            for(int j = i; j >= 1; j--) {
+                fat = fat.multiply(BigInteger.valueOf(j));
+            }
+            System.out.println("o fatorial de " + i + " é " + fat);
         }
-        System.out.println(trinta);
-
-        double quarenta = 1;
-        for(int y = 1; y <= 40; y++) {
-            quarenta *= y;
-        }
-        System.out.println(quarenta);
     }
 }
