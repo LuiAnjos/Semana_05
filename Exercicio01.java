@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 
 public class Exercicio01 extends BigInteger{
-     public Exercicio1() {
+     public Exercicio01() {
          super("1");
      }
     public void exec() {

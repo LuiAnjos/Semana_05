@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Exercicio03 {
     public void exec() {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
